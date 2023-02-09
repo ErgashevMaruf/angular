@@ -1,0 +1,15 @@
+<header>
+    <div class="container d-flex justify-between">
+      <div class="logo">
+        <a href="#"><img src="../assets/image/logo.png" alt=""></a>
+      </div>
+      <div class="menu__btn">
+        <ul class="d-flex menu">
+          <li *ngFor="let i of headermenu"><a href="{{i.link}}">{{i.name}}</a></li>
+          <button class="header__btn">Free Trial</button>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  

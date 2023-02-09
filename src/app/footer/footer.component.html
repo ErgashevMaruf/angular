@@ -1,0 +1,16 @@
+<footer>
+    <div class="container d-flex justify-between">
+      <div class="logo d-flex align-items">
+        <a href="#"><img src="../assets/image/logo.png" alt=""></a>
+        <p class="footer__p">Copyright ©2017. All Right Reserved</p>
+      </div>
+      <div class="footerRight">
+        <ul class="d-flex footer__menu">
+          <li *ngFor="let i of footermenu"><a [href]="i.link">{{i.name}}</a></li>
+          <img src="../assets/image/twitter logo.svg" alt="">
+          <img src="../assets/image/linkedin logo.svg" alt="">
+          <img src="../assets/image/Group 9.svg" alt="">
+        </ul>
+      </div>
+    </div>
+  </footer>
